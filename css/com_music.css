@@ -1,0 +1,77 @@
+@charset "UTF-8";
+a {
+    color: #ccc;
+}
+#header .left-link,
+#header .top-link .left-link > li,
+#header .top-link .right-link > li,
+#top-search ul li,
+#left,
+#left .banner-box .inner-box div,
+#left .banner-box ul li,
+#left .music-box .musical ul li,
+#left .changeTab-push .song-list ul li,
+#right .right-top ul li,
+#right #hot-spot h3,
+#right #hot-spot .fir-tab li,
+#footer ul li{
+    float: left;
+}
+#header .right-link,
+#left .changeTab-push em,
+#right,
+#content #footer ul{
+    float: right;
+}
+
+
+#header .top-link .left-link li a:hover,
+#header .top-link .right-link li a:hover,
+#top-search ul li a:hover{
+    color: #fff;
+}
+#left .changeTab-push em:hover{
+    background: #80cfbb;
+}
+#right #hot-spot .fir-tab li a:hover{
+    text-decoration: underline;
+    color: #247258;
+}
+
+
+
+/*顶部显示豆瓣下载客户端二维码*/
+#header .right-link .download {
+    position: relative;
+}
+
+#header .right-link .download div {
+    display: none;
+    position: absolute;
+    top: 31px;
+    left: -115px;
+    width: 250px;
+    height: 500px;
+    border-bottom: 1px solid #ccc;
+    z-index: 10;
+}
+
+/*回到顶部图标*/
+#toTop{
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    width: 30px;
+    height: 35px;
+    border: 1px solid #E5E5E5;
+    box-shadow: 1px 1px 5px #555;
+    text-align: center;
+    line-height: 35px;
+
+    opacity: 0.6;
+}
+#toTop a{
+    font-size: 32px;
+    color: #333333;
+}

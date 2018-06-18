@@ -1,0 +1,377 @@
+@charset "UTF-8";
+#header {
+    height: 155px;
+    background-color: #EDF4ED;
+    margin-bottom: 45px;
+}
+
+/*顶部导航栏*/
+#header .top-link {
+    height: 31px;
+    background-color: #545652;
+    text-align: center;
+    line-height: 31px;
+}
+
+#header .top-link .left-link li {
+    width: 48px;
+    height: 28px;
+}
+
+#header .top-link .left-link li a {
+    color: #ccc;
+}
+
+#header .top-link .right-link li {
+    margin-right: 25px;
+}
+
+/*顶部搜索栏*/
+#top-search {
+    position: relative;
+    margin: 0 auto;
+    width: 950px;
+    height: 115px;
+    background-color: #f0f3f5;
+}
+
+#top-search img {
+    display: inline-block;
+}
+
+#top-search input {
+    width: 250px;
+    height: 25px;
+    text-indent: 5px;
+    margin-left: 35px;
+    background: #fff url(../img/0.png) no-repeat 230px center;
+    border: 1px solid #ccc;
+}
+
+#top-search .six {
+    position: absolute;
+    top: 10px;
+    left: 535px;
+    height: 114px;
+}
+
+#top-search ul li {
+    margin-right: 25px;
+    height: 40px;
+}
+
+#top-search ul li a {
+    color: #666;
+}
+
+/*内容开始*/
+#content {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 45px;
+    width: 1000px;
+}
+
+#content #main {
+    width: 950px;
+    margin: 0 auto;
+}
+
+/*左边导航*/
+#left {
+    width: 600px;
+}
+
+/*轮播图*/
+#left .banner-box {
+    position: relative;
+    width: 590px;
+    height: 250px;
+    overflow: hidden;
+}
+#left .banner-box .inner-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 590px;
+    height: 250px;
+    background: #e1e1e1 url("../img/music/default.gif") no-repeat center;
+}
+
+#left .banner-box .inner-box img {
+    display: none;
+    width: 590px;
+    height: 250px;
+
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+#left .banner-box ul {
+    position: absolute;
+    bottom: 10px;
+    left: 240px;
+    height: 12px;
+}
+
+#left .banner-box ul li {
+    margin-right: 8px;
+    width: 12px;
+    height: 12px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#left .banner-box ul li.selected {
+    background-color: orange;
+}
+
+/*音乐列表*/
+#left .music-box {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    width: 593px;
+}
+
+#left .music-box span {
+    font-size: 12px;
+    color: #666;
+}
+
+#left .music-box .title {
+    font-size: 16px;
+    color: #333;
+}
+
+#left .music-box .musical {
+    padding: 20px 10px;
+    width: 573px;
+    background-color: #f5f7f8;
+    overflow: hidden;
+}
+
+#left .music-box .musical li {
+    text-align: center;
+}
+
+#left .music-box .musical li img {
+    padding: 2px;
+    padding-bottom: 20px;
+    width: 120px;
+    height: 131px;
+}
+
+#left .music-box .musical a {
+    display: block;
+    margin-bottom: 5px;
+    color: #00CC66;
+    font-size: 16px;
+}
+
+/*编辑推荐（选项卡）*/
+#left .changeTab-push {
+    width: 600px;
+    height: 426px;
+}
+
+#left .changeTab-push em {
+    display: inline-block;
+    position: relative;
+    top: 4px;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 14px;
+    background: rgb(35, 171, 136);
+    color: #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#left .changeTab-push .song-list {
+    position: relative;
+    width: 600px;
+    height: 380px;
+    background-color: #f5f7f8;
+    overflow: hidden;
+}
+
+#left .changeTab-push .song-list li {
+    margin-left: 12px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    padding: 10px 14px;
+    width: 180px;
+    background: #fff;
+}
+
+#left .changeTab-push .song-list li img {
+    border: 1px solid #f5f7f8;
+    width: 153px;
+    height: 150px;
+}
+
+#left .changeTab-push .song-list span {
+    display: block;
+    font-size: 12px;
+    line-height: 30px;
+    color: #666;
+}
+
+#left .changeTab-push .song-list a {
+    display: block;
+    font-size: 16px;
+    color: #138a64;
+}
+
+#left .changeTab-push .song-list p {
+    font-size: 12px;
+    line-height: 15px;
+    color: #666;
+}
+#left .changeTab-push .song-list .sec-tab{
+    display: none;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+/*右侧部分*/
+#right {
+    width: 310px;
+}
+
+#right .ad img {
+    width: 305px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+    margin-left: 0;
+    margin-bottom: 27px;
+}
+
+#right .right-top {
+    text-align: center;
+}
+
+#right .right-top ul {
+    margin-left: 0;
+}
+
+#right .right-top li {
+    margin-right: 3px;
+    width: 100px;
+    height: 65px;
+    background-color: #f5f7f8;
+    font-size: 16px;
+    text-align: center;
+    line-height: 65px;
+    overflow: hidden;
+}
+
+#right .right-top li span {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    color: #23ab88;
+    font-weight: bold;
+}
+
+#right .right-top li a {
+    display: block;
+    height: 21px;
+    line-height: 21px;
+    color: #000;
+    font-size: 16px;
+}
+
+#right .right-top button {
+    display: block;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 40px;
+    background: #23ab88;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*选项卡部分*/
+#right #hot-spot h3 {
+    display: inline-block;
+    color: #555;
+    font-size: 20px;
+}
+
+#right #hot-spot span {
+    display: inline-block;
+    margin-left: 35%;
+    width: 81px;
+    height: 25px;
+    background: #23ab88;
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#right #hot-spot .fir-tab {
+    height: 16px;
+}
+
+#right #hot-spot .fir-tab li {
+    margin-left: 4px;
+}
+
+#right #hot-spot .fir-tab li a {
+    font-size: 12px;
+    color: #000;
+}
+
+#right #hot-spot .fir-tab li a.bg {
+    color: #388d78;
+}
+
+#right #hot-spot .changeTab-hot {
+    overflow: hidden;
+    height: 700px;
+}
+#right #hot-spot .changeTab-hot ul{
+    display: none;
+}
+#right #hot-spot .changeTab-hot ul.home{
+    display: block;
+}
+#right #hot-spot .changeTab-hot li {
+    float: left;
+    width: 330px;
+    height: 70px;
+}
+
+#right #hot-spot .changeTab-hot li img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/*底部页脚*/
+#footer {
+    position: absolute;
+    bottom: -54px;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border-top: 1px dashed #999;
+    color: #999;
+}
+
+#footer a {
+    font-size: 14px;
+    color: #3276ab;
+}
+
